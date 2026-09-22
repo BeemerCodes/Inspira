@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniFECAF Inspira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <input type="checkbox" id="mobile-toggle" style="display: none" />
+        <label
+          for="mobile-toggle"
+          class="mobile-menu-toggle"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <a href="#" class="logo-link">
+          <img
+            src="assets/images/logo_colorido.svg"
+            alt="UniFECAF"
+            class="logo-img"
+          />
+          <span class="logo-sub">Inspira</span>
+        </a>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Nossa Estrutura</a></li>
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero banner-full-height">
+        <div class="container hero-container">
+          <div class="hero-text-side">
+            <h1>O acervo definitivo para o seu sucesso.</h1>
+            <p>
+              A Biblioteca Digital UniFECAF inspira sua jornada acadêmica com um
+              ecossistema de aprendizado contínuo. Acesse instantaneamente os
+              principais periódicos e publicações globais de forma acessível e
+              interativa.
+            </p>
+          </div>
+          <div class="hero-image-side">
+            <div class="hero-image-frame">
+              <img
+                src="assets/images/naomefacapensar.jpg"
+                alt="Livro Não Me Faça Pensar"
+                class="book-slide"
+              />
+              <img
+                src="assets/images/calculo.jpg"
+                alt="Livro Cálculo"
+                class="book-slide"
+              />
+              <img
+                src="assets/images/startup.jpg"
+                alt="Livro A Startup Enxuta"
+                class="book-slide"
+              />
+            </div>
+          </div>
+        </div>
+        <a href="#sobre" class="scroll-indicator" aria-label="Rolar para baixo">
+          <span class="arrow-down"></span>
+        </a>
+      </section>
+
+      <!-- Sobre -->
+      <section id="sobre" class="sobre section-full-height">
+        <div class="container">
+          <h2 class="section-title">Sobre a Nossa Biblioteca</h2>
+          <div class="sobre-grid-superior">
+            <div class="sobre-texto">
+              <p>
+                A UniFECAF Inspira não é apenas um repositório de livros, é um
+                ecossistema de aprendizado contínuo. Nós rompemos as barreiras
+                físicas para entregar na sua tela os principais periódicos,
+                teses e publicações globais, estruturados para acelerar sua
+                pesquisa.
+              </p>
+            </div>
+            <div class="sobre-imagem">
+              <img
+                src="assets/images/infra.svg"
+                alt="Infraestrutura Digital UniFECAF"
+              />
+            </div>
+            <div class="sobre-texto">
+              <p>
+                Nossa interface foi arquitetada sob rigorosos padrões de
+                acessibilidade e usabilidade. Queremos que seu foco seja
+                inteiramente na absorção do conhecimento, garantindo que
+                qualquer aluno, em qualquer dispositivo, tenha uma experiência
+                de leitura impecável.
+              </p>
+            </div>
+          </div>
+
+          <div class="sobre-grid-inferior">
+            <div class="feature-box">
+              <img src="assets/images/book.svg" alt="Ícone Acervo" />
+              <h4>Acervo Premium</h4>
+            </div>
+            <div class="feature-box">
+              <img src="assets/images/cloud.svg" alt="Ícone Nuvem" />
+              <h4>Acesso em Nuvem</h4>
+            </div>
+            <div class="feature-box">
+              <img
+                src="assets/images/acessibilidade.svg"
+                alt="Ícone Acessibilidade"
+              />
+              <h4>Acessibilidade</h4>
+            </div>
+            <div class="feature-box">
+              <img src="assets/images/suporte.svg" alt="Ícone Suporte" />
+              <h4>Disponível 24/7</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+      <section class="banner-meio">
+        <div class="banner-meio-img"></div>
+        <div class="banner-meio-content">
+          <h2>"O conhecimento não conhece fronteiras, apenas horizontes."</h2>
+        </div>
+      </section>
+
+      <!-- Nosso acervo -->
+      <section id="livros" class="livros">
+        <div class="container">
+          <h2 class="section-title">Nossos Livros</h2>
+          <p class="section-subtitle">
+            Explore os títulos mais recomendados pelos nossos coordenadores de
+            curso.
+          </p>
+
+          <div class="livros-grid">
+            <!-- Livro 1 -->
+            <article id="livro-1" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Tecnologia</span>
+                <img
+                  src="assets/images/naomefacapensar.jpg"
+                  alt="Não Me Faça Pensar"
+                  class="book-cover"
+                />
+              </div>
+              <h3>Não Me Faça Pensar</h3>
+              <p>
+                A abordagem de bom senso à usabilidade na web, escrito por Steve
+                Krug.
+              </p>
+              <a href="#modal-livro-1" class="btn btn-outline">Saiba mais</a>
+            </article>
+
+            <!-- Livro 2 -->
+            <article id="livro-2" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Exatas</span>
+                <img
+                  src="assets/images/calculo.jpg"
+                  alt="Cálculo Volume 1"
+                  class="book-cover"
+                />
+              </div>
+              <h3>Cálculo - Volume 1</h3>
+              <p>
+                Referência mundial no ensino de cálculo e suas aplicações por
+                James Stewart.
+              </p>
+              <a href="#modal-livro-2" class="btn btn-outline">Saiba mais</a>
+            </article>
+
+            <!-- Livro 3 -->
+            <article id="livro-3" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Negócios</span>
+                <img
+                  src="assets/images/startup.jpg"
+                  alt="A Startup Enxuta"
+                  class="book-cover"
+                />
+              </div>
+              <h3>A Startup Enxuta</h3>
+              <p>
+                Como usar a inovação contínua para criar negócios radicalmente
+                bem-sucedidos.
+              </p>
+              <a href="#modal-livro-3" class="btn btn-outline">Saiba mais</a>
+            </article>
+
+            <!-- Livro 4 -->
+            <article id="livro-4" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Direito</span>
+                <img
+                  src="assets/images/vademecum.jpg"
+                  alt="Vade Mecum Saraiva"
+                  class="book-cover"
+                />
+              </div>
+              <h3>Vade Mecum Saraiva</h3>
+              <p>
+                A principal obra de referência acadêmica e profissional para
+                estudantes de Direito.
+              </p>
+              <a href="#modal-livro-4" class="btn btn-outline">Saiba mais</a>
+            </article>
+
+            <!-- Livro 5 -->
+            <article id="livro-5" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Saúde</span>
+                <img
+                  src="assets/images/atlas.jpg"
+                  alt="Atlas de Anatomia Humana"
+                  class="book-cover"
+                />
+              </div>
+              <h3>Atlas de Anatomia</h3>
+              <p>
+                Ilustrações magistrais e foco na anatomia clínica por Frank H.
+                Netter.
+              </p>
+              <a href="#modal-livro-5" class="btn btn-outline">Saiba mais</a>
+            </article>
+
+            <!-- Livro 6 -->
+            <article id="livro-6" class="livro-card">
+              <div class="book-cover-wrapper">
+                <span class="badge-categoria">Humanas</span>
+                <img
+                  src="assets/images/naoviolencia.jpg"
+                  alt="Comunicação Não-Violenta"
+                  class="book-cover"
+                />
+              </div>
+              <h3>Comunicação Não-Violenta</h3>
+              <p>
+                Técnicas para aprimorar relacionamentos pessoais e profissionais
+                de forma empática.
+              </p>
+              <a href="#modal-livro-6" class="btn btn-outline">Saiba mais</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Unidades -->
+      <section id="unidades" class="unidades">
+        <div class="container">
+          <h2 class="section-title">Nossas Unidades</h2>
+          <div class="unidades-lista">
+            <!-- Unidade 1 -->
+            <article class="unidade-row">
+              <div class="unidade-img-wrap">
+                <img
+                  src="assets/images/fachada_unifecaf_taboao_novo_campus.jpg"
+                  alt="Fachada da Unidade Matriz"
+                />
+              </div>
+              <div class="unidade-info">
+                <h3>Unidade Taboão da Serra</h3>
+                <p>
+                  Nossa matriz presencial foi projetada para inspirar. Oferece
+                  espaços de coworking acústicos, salas de estudo individual e
+                  laboratórios de informática de última geração para suportar a
+                  Biblioteca Digital quando você estiver no campus.
+                </p>
+                <span class="unidade-tag">Aberto 24h para alunos</span>
+              </div>
+            </article>
+
+            <!-- Unidade 2 -->
+            <article class="unidade-row">
+              <div class="unidade-img-wrap">
+                <img
+                  src="assets/images/pinheiros.jpg"
+                  alt="Fachada da Unidade Pinheiros"
+                />
+              </div>
+              <div class="unidade-info">
+                <h3>Unidade Pinheiros</h3>
+                <p>
+                  Localizada no coração pulsante da inovação paulistana, a
+                  unidade Pinheiros foca em networking. Conta com acervos
+                  físicos exclusivos da área de negócios e tecnologia,
+                  totalmente integrados ao sistema digital.
+                </p>
+                <span class="unidade-tag">Polo de Inovação</span>
+              </div>
+            </article>
+
+            <!-- Unidade 3 -->
+            <article class="unidade-row">
+              <div class="unidade-img-wrap">
+                <img src="assets/images/ead.jpg" alt="Alunos estudando EAD" />
+              </div>
+              <div class="unidade-info">
+                <h3>Polo de Suporte EAD</h3>
+                <p>
+                  Entendemos que o aluno digital precisa de apoio real. Nosso
+                  polo EAD oferece suporte técnico em tempo real, tutores
+                  especializados de plantão e acesso VIP aos nossos periódicos
+                  internacionais.
+                </p>
+                <span class="unidade-tag">Suporte 100% Remoto</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer) -->
+    <footer id="contatos" class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <img
+            src="assets/images/logo_colorido.svg"
+            alt="UniFECAF Inspira"
+            class="footer-logo-img"
+          />
+          <p>
+            O ecossistema universitário que leva seu futuro a sério, em todo o
+            Brasil.
+          </p>
+          <div class="footer-contact-details">
+            <p><strong>Telefone:</strong> 0800 123 4567</p>
+            <p><strong>Email:</strong> biblioteca@unifecaf.edu.br</p>
+            <p><strong>Atendimento:</strong> Seg a Sex, 8h às 22h</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Acesso Rápido</h3>
+          <ul>
+            <li><a href="#hero">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre o Acervo</a></li>
+            <li><a href="#livros">Catálogo de Livros</a></li>
+            <li><a href="#unidades">Nossas Instalações</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-map">
+          <iframe
+            src="https://maps.google.com/maps?q=UniFECAF%20Tabo%C3%A3o%20da%20Serra&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="350"
+            style="border: 0; border-radius: 8px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de localização da UniFECAF"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 UniFECAF Inspira. Todos os direitos reservados. Feito com
+          ❤️ por
+
+          <a href="https://github.com/beemercodes">BeemerCodes</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Modais -->
+    <!-- Modal Livro 1 -->
+    <div id="modal-livro-1" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-1" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/naomefacapensar.jpg"
+            alt="Não Me Faça Pensar"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>Não Me Faça Pensar</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Tecnologia, UX/UI, Web Design<br />
+              <strong>Autor:</strong> Steve Krug<br />
+              <strong>Editora:</strong> Alta Books &bull; 216 páginas
+            </p>
+            <p class="synopsis">
+              O livro definitivo sobre usabilidade na web. Steve Krug explica de
+              forma clara e bem-humorada as regras fundamentais para criar
+              interfaces intuitivas. Uma leitura obrigatória para
+              desenvolvedores front-end e web designers.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Livro 2 -->
+    <div id="modal-livro-2" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-2" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/calculo.jpg"
+            alt="Cálculo Volume 1"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>Cálculo - Volume 1</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Exatas, Matemática, Engenharia<br />
+              <strong>Autor:</strong> James Stewart<br />
+              <strong>Editora:</strong> Cengage Learning &bull; 944 páginas
+            </p>
+            <p class="synopsis">
+              Referência mundial no ensino de cálculo. A obra destaca-se por sua
+              precisão matemática, explicações claras e excelente seleção de
+              problemas aplicados a situações reais da física e engenharia.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Livro 3 -->
+    <div id="modal-livro-3" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-3" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/startup.jpg"
+            alt="A Startup Enxuta"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>A Startup Enxuta</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Negócios, Inovação, Gestão<br />
+              <strong>Autor:</strong> Eric Ries<br />
+              <strong>Editora:</strong> Sextante &bull; 272 páginas
+            </p>
+            <p class="synopsis">
+              Eric Ries ensina como empreendedores podem utilizar a inovação
+              contínua para criar negócios radicalmente bem-sucedidos. Aprenda o
+              ciclo Construir-Medir-Aprender para testar hipóteses de forma
+              rápida.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Livro 4 -->
+    <div id="modal-livro-4" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-4" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/vademecum.jpg"
+            alt="Vade Mecum Saraiva"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>Vade Mecum Saraiva</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Direito, Legislação, Jurídico<br />
+              <strong>Autor:</strong> Editora Saraiva<br />
+              <strong>Editora:</strong> Saraiva Jur &bull; Coleção 2026
+            </p>
+            <p class="synopsis">
+              A obra de referência para profissionais e estudantes de Direito.
+              Compilação atualizada da Constituição Federal, códigos e
+              legislação complementar essencial, com índices facilitadores de
+              busca rápida.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Livro 5 -->
+    <div id="modal-livro-5" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-5" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/atlas.jpg"
+            alt="Atlas de Anatomia"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>Atlas de Anatomia Humana</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Saúde, Medicina, Biologia<br />
+              <strong>Autor:</strong> Frank H. Netter<br />
+              <strong>Editora:</strong> Elsevier &bull; 640 páginas
+            </p>
+            <p class="synopsis">
+              O padrão ouro da ilustração anatômica. Oferece visões
+              inigualáveis, focando nas perspectivas anatômicas clinicamente
+              mais relevantes. Fundamental para estudantes da área da saúde e
+              medicina.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Livro 6 -->
+    <div id="modal-livro-6" class="css-modal">
+      <div class="css-modal-content">
+        <a href="#livro-6" class="css-modal-close" title="Fechar">&times;</a>
+        <div class="modal-body">
+          <img
+            src="assets/images/naoviolencia.jpg"
+            alt="Comunicação Não-Violenta"
+            class="modal-cover"
+          />
+          <div class="modal-text">
+            <h3>Comunicação Não-Violenta</h3>
+            <p class="modal-meta">
+              <strong>Categorias:</strong> Humanas, Psicologia, Comunicação<br />
+              <strong>Autor:</strong> Marshall B. Rosenberg<br />
+              <strong>Editora:</strong> Ágora &bull; 288 páginas
+            </p>
+            <p class="synopsis">
+              Técnicas práticas e transformadoras para aprimorar relacionamentos
+              pessoais e profissionais. Aprenda como expressar necessidades de
+              forma clara e ouvir o outro com verdadeira empatia no ambiente
+              corporativo.
+            </p>
+            <a href="#" class="ler-agora-link">Ler Agora <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
